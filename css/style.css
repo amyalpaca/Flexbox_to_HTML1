@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+*:before, *after {
+  box-sizing: inherit;
+}
+body {
+    background-color: darkolivegreen;
+}
+
+p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: pink;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: aliceblue;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: aqua;
+}
+
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    color: aquamarine;
+}
+a:link{
+    color:blueviolet;
+}
+a:visited{
+    color: gray;
+}
+hr{
+    border: 0;
+    width: 90%;
+    color: wheat;
+    background-color: greenyellow;
+    height: 5px;
+}
+th{
+    color:teal;
+    border: 1px solid black;
+}
+td{
+    color: azure;
+    border: 1px solid black;
+}
+/* hi this is a help comment */
+.class1{
+    color:blue;
+
+}
+.class2{
+    color:green;
+}
+.container{
+    width:56rem;
+    margin: 3rem auto;
+}
+.title {
+    border-bottom: 1px dotted #bbbbbb;
+    width: 50rem;
+    margin-bottom: 4rem;
+}
+section {
+    margin-bottom: 3rem;
+}
+.extra_margin {
+    margin-bottom: 5rem;
+}
+.lump {
+    border-radius: 50% 50% 100% 0% / 100% 100% 0% 0% ;
+    border: black 2px double;
+    margin: 0px auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 75px -200px 5px 0px rgba(157,118,176,0.28);
+-webkit-box-shadow: 75px -200px 5px 0px rgba(157,118,176,0.28);
+-moz-box-shadow: 75px -200px 5px 0px rgba(157,118,176,0.28);
+
+
+}  
+.folded_note {
+    border-radius: 0% 100% 11% 89% / 100% 0% 100% 0% ;
+    border: beige 10px dotted;
+    box-shadow: 13px 10px 5px 0px rgba(143,19,19,0.75);
+-webkit-box-shadow: 13px 10px 5px 0px rgba(143,19,19,0.75);
+-moz-box-shadow: 13px 10px 5px 0px rgba(143,19,19,0.75);
+}
