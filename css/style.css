@@ -7,6 +7,11 @@
   box-sizing: inherit;
 }
 
+/* img{
+  display: block;
+  max-width: 100%;
+} */
+
 .goals-container img {
   display: block;
   width: 100%;
@@ -79,13 +84,55 @@ header{
 
 .goals-image {
     width: 50%;
-    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 10px;
    
+}
+
+.foods-container {
+    /* display: flex;
+    flex-direction: row-reverse;
+    align-items: center; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0; */
+    border: 10px solid gray;
+}
+
+.foods-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+.foods-container img {
+  display: block;
+  /* width: 100%; */
+  max-width: 100%;
+  height: 50%;
+}
+
+.foods-image {
+    width: 50%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.foods-text h4 {
+    margin-bottom:  1rem;
+    font-size: large;
 }
 h2{
     font-family: 'Times New Roman', Times, serif;
@@ -140,9 +187,9 @@ section {
     margin-bottom: 3rem;
 }
 .extra_margin {
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 }
-.lump {
+/* .lump {
     border-radius: 50% 50% 100% 0% / 100% 100% 0% 0% ;
     border: black 2px double;
     margin: 0px auto;
@@ -155,7 +202,7 @@ section {
 -moz-box-shadow: 75px -200px 5px 0px rgba(157,118,176,0.28);
 
 
-}  
+}   */
 .folded_note {
     border-radius: 0% 100% 11% 89% / 100% 0% 100% 0% ;
     border: beige 10px dotted;
